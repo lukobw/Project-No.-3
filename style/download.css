@@ -1,0 +1,74 @@
+.download {
+	background-color: #f5f6f7;
+	display: grid;
+	grid-template-areas: 
+	"download download download download"
+	". store store .";
+  grid-template-columns: auto;
+  
+}
+
+.download-description {
+  display: grid;
+	grid-area: download;
+  grid-template-columns: 50%;
+  justify-content: center;
+  padding-top: 100px;
+  text-align: center;
+  
+
+}
+
+.store {
+  display: grid;
+  grid-area: store;
+  grid-gap: 50px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding: 50px 0 100px;
+}
+
+.download-header {
+	color: #373737;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.download-p {
+  color: #373737;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+
+.btn-small{
+  background-color: #1abc9c;
+  font-size: 16px;
+  font-weight: 700;
+  height: 56px
+
+}
+
+.btn-store {
+  background-color: #1abc9c;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  width: 240px;
+  height: 56px;
+  border-radius: 3px 0 0 3px;
+  text-transform: uppercase;
+  
+}
+
+.btn-small {
+  background-color: #16a085;
+  color: #fff;
+}
+
+.btn-group {
+  padding-left: 50px;
+}

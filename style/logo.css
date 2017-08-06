@@ -1,0 +1,25 @@
+.logo {
+  background-image: url('../img/main-image.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  /* color: #fff; */
+  display: grid;
+  grid-template-areas:
+  "navbar navbar navbar"
+  "main main main"
+  "social social social";
+  grid-template-columns: 1fr 1fr 1fr;
+   justify-items: center;
+   height: 745px;
+}
+
+.social {
+  align-self: end;
+  grid-area: social;
+}
+
+.social-link {
+  text-decoration: none;
+  color:  #fff;
+}

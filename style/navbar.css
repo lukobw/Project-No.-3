@@ -1,0 +1,44 @@
+.navbar {
+   border:  none;
+  /* grid-area: navbar; */
+  justify-self: center;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  grid-area: navbar;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+
+}
+
+.navbar-inverse {
+  background-color: inherit;
+  grid-area: navbar;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.list-item {
+  color:  #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100px;
+  padding-right: 50px;
+  text-transform: uppercase;
+
+}
+.navbar-collapse {
+  justify-self: center;
+
+}

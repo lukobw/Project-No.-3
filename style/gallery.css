@@ -1,0 +1,47 @@
+.gallery {
+  align-items: center;
+	background-color: #f5f6f7;
+	display: grid;
+  grid-template-areas: 
+  "arrows arrows arrows"
+  "camera photo-1 photo-2";
+  grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+  padding: 100px 0;
+	position: relative;
+	z-index: 3;
+}
+
+.arrows {
+  grid-area: arrows;
+  grid-column: 3/3;
+}
+
+.arrows i {
+  padding-right: 15px;
+}
+.our-community {
+  align-self: center;
+  color: #373737;
+  font-size: 16px;
+  font-weight: 700;
+	grid-area: camera;
+	line-height: 20px;
+  padding-left: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.green-camera-paragraph {
+  color: #373737;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.car {
+	grid-area: photo-1;
+}
+
+.leafs {
+	grid-area: photo-2;
+}

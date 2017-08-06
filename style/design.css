@@ -1,0 +1,64 @@
+.design-phone {
+	background-color: #fff;
+	display: grid;
+	grid-template-areas: 
+	"phone design";
+	grid-template-columns: 1.5fr 1fr;
+	grid-template-rows: auto;
+	justify-items: center;
+	
+}
+
+.design {
+	grid-area: design;
+  align-self: center;
+}
+
+.phone-green img {
+	position: relative;
+  right: 120px;
+	top: 157px;
+	z-index: 1;
+}
+
+.design-header {
+	color: #16a085;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  padding-bottom: 44px;
+  text-transform: uppercase;
+}
+
+.design-paragraph {
+  color: #373737;
+  font-size:  12px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 0 100px 42px 0;
+}
+
+.btn-design {
+  background-color: #16a085;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 42px;
+  padding: 21px 49px 20px 44px;
+  text-transform: uppercase;
+}
+
+.numbers {
+  color: #373737;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.numbers i {
+  color: #000;
+  padding-right: 15px;
+}

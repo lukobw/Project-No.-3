@@ -1,0 +1,42 @@
+.subscribe {
+	background-image: url('../img/subscribe-photo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	height: 790px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.subscribe-header {
+	color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 34px;
+  text-transform: uppercase;
+}
+
+.input-group {
+  display: inline-flex
+}
+
+.subscribe-input{
+  border-radius: 3px 0 0 3px;
+  background-color: #fff;
+  color: #373737;
+  font-size: 1em;
+  font-weight: 500;
+  height: 60px;
+  width: 280px;
+  text-transform: uppercase;
+
+}
+
+.btn-subscribe {
+  border-radius: 0 3px 3px 0;
+  background-color: #16a085;
+  color: #fff;
+  height: 60px;
+  width: 63px;
+}

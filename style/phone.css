@@ -1,0 +1,54 @@
+.simple-foto{
+	background-color: #f5f6f7;
+	background-image: url('../img/hand.png');
+  background-position: 490px 136px;
+	background-repeat: no-repeat;
+	display: grid;
+	grid-template-areas: 
+	"desc phone";
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 500px;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+.phone-desc {
+  align-self: center;
+	grid-area: desc;
+  padding: 0 130px;
+}
+
+.phone-image {
+	grid-area: phone;
+	left: 151px;
+	position: absolute;
+	top: 99px;
+}
+
+.simple-photo-header {
+  color: #16a085;
+  font-size:  18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.simple-photo-paragraph {
+  color: #373737;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  
+}
+
+.btn-simple-photo {
+  background-color: #16a085;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 23px 45px 18px 43px;
+  text-transform: uppercase;
+
+}
